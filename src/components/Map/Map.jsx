@@ -10,7 +10,7 @@ const Map = () => {
   const navigate = useNavigate();
 
   function LocationMarker() {
-      const [position, setPosition] = useState(latlng);
+    const [position, setPosition] = useState(latlng);
 
     return position === null ? null : (
       <Marker position={position}>

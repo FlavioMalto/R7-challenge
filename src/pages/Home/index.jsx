@@ -84,9 +84,6 @@ const Home = () => {
     window.localStorage.setItem("sort", displaySort);
   }, [page, total, size, data, displayTerm, displayType, displayTerm]);
 
-  console.log(submited);
-  console.log(displayTerm);
-
   return (
     <>
       <Header
